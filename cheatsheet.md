@@ -3,7 +3,9 @@ SQL (Structured Query Language) is the standard language to interact with relati
 
 ## Table of Contents
 - [Relational Database Management System (RDBMS)](#relational-database-management-system)
-- [SQLite]
+ - [SQLite](#sqlite)
+ - [MySQL](#mysql)
+ - [PostgreSQL](#postgresql)
 ## Relational Database Management System (RDBMS)
 A Relational Database Management System (RDBMS) is a software system used to store, manage, and retrieve structured data. It organizes data into tables consisting of rows and columns, allowing relationships to be defined and enforced between them. RDBMSs use SQL (Structured Query Language) as the standard language for querying and updating data. The scope of an RDBMS includes data modeling, indexing, transaction management, and enforcing integrity rules to ensure accuracy and consistency. RDBMS solutions such as SQLite, MySQL, and PostgreSQL provide reliable and efficient data handling for applications ranging from small local programs to large-scale distributed systems.
 
@@ -35,12 +37,12 @@ brew install sqlite
 Available on https://sqlite.org/download.html.
 
 ### MySQL (MariaDB)
-#### 1. Prerequisites
+**Prerequisites**
 - Requires running database server.
 - Recommended usage for medium/large web apps.
 - GUI tools (optional): DBeaver, HeidiSQL, MySQL Workbench.
 
-#### 2. Installation & Setup
+**Installation & Setup**
 - Linux (Debian/Ubuntu):
 ```bash
 sudo apt update
@@ -73,7 +75,7 @@ The installer is available on https://dev.mysql.com/downloads/installer/.
 - Strong ACID guarantees, recommended for serious backend systems.
 - GUI tools (optional): pgAdmin, DBeaver, TablePlus.
 
-#### 2. Installation & Setup
+**Installation & Setup**
 - Linux (Debian/Ubuntu):
 ```bash
 sudo apt update
