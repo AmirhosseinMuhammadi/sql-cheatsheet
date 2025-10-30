@@ -2,11 +2,10 @@
 SQL (Structured Query Language) is the standard language to interact with relational databases. This cheatsheet is based on courses available on [Sololearn](https://www.sololearn.com/) and AI guidelines.
 
 ## Table of Contents
-
 - [Relational Database Management System (RDBMS)](#relational-database-management-system-rdbms)
- - [SQLite](#sqlite)
- - [MySQL (MariaDB)](#mysql-mariadb)
- - [PostgreSQL](#postgresql)
+  - [SQLite](#sqlite)
+  - [MySQL (MariaDB)](#mysql-mariadb)
+  - [PostgreSQL](#postgresql)
 - [References & Additional Resources](#references--additional-resources)
 
 ## Relational Database Management System (RDBMS)
