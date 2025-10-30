@@ -2,17 +2,18 @@
 SQL (Structured Query Language) is the standard language to interact with relational databases. This cheatsheet is based on courses available on [Sololearn](https://www.sololearn.com/) and AI guidelines.
 
 ## Table of Contents
-[Relational Database Management System (RDBMS)](#relational-database-management-system)
+- [Relational Database Management System (RDBMS)](#relational-database-management-system)
+- [SQLite]
 ## Relational Database Management System (RDBMS)
 A Relational Database Management System (RDBMS) is a software system used to store, manage, and retrieve structured data. It organizes data into tables consisting of rows and columns, allowing relationships to be defined and enforced between them. RDBMSs use SQL (Structured Query Language) as the standard language for querying and updating data. The scope of an RDBMS includes data modeling, indexing, transaction management, and enforcing integrity rules to ensure accuracy and consistency. RDBMS solutions such as SQLite, MySQL, and PostgreSQL provide reliable and efficient data handling for applications ranging from small local programs to large-scale distributed systems.
 
 ### SQLite
-#### Prerequisites
+#### 1. Prerequisites
 - No server required (SQLite is an embedded database).
 - Works on Linux, macOS, and Windows.
 - Only needs the **SQLite CLI** (optional if your language/framework already includes it e.g. Python).
 
-#### Installation & Setup
+#### 2. Installation & Setup
 - Linux (Debian/Ubuntu):
 ```bash
 sudo apt update
@@ -34,12 +35,12 @@ brew install sqlite
 Available on https://sqlite.org/download.html.
 
 ### MySQL (MariaDB)
-#### Prerequisites
+#### 1. Prerequisites
 - Requires running database server.
 - Recommended usage for medium/large web apps.
 - GUI tools (optional): DBeaver, HeidiSQL, MySQL Workbench.
 
-#### Installation & Setup
+#### 2. Installation & Setup
 - Linux (Debian/Ubuntu):
 ```bash
 sudo apt update
@@ -67,12 +68,12 @@ brew services start mysql
 The installer is available on https://dev.mysql.com/downloads/installer/.
 
 ### PostgreSQL
-#### Prerequisites
+*Prerequisites*
 - Requires running database server.
 - Strong ACID guarantees, recommended for serious backend systems.
 - GUI tools (optional): pgAdmin, DBeaver, TablePlus.
 
-#### Installation & Setup
+#### 2. Installation & Setup
 - Linux (Debian/Ubuntu):
 ```bash
 sudo apt update
